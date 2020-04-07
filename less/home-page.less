@@ -1,4 +1,11 @@
+
+
 .home {
+
+  @keyframes moveTheBus {
+    0% {left:0px; top:0px;}
+    100% {left:68%; top:0px;}
+    }
 
   .intro {
     padding: 90px 0 10px;
@@ -12,6 +19,19 @@
     h2 {
       margin-top: 20px;
     }
+      .bus {
+        width: 30%;
+        height: auto;
+        margin-bottom: -17%;
+        position: relative;
+      }
+      .go {
+          animation-name: moveTheBus;
+          animation-duration: 5s;
+      }
+      .road {
+        width: 100%;
+      }
   }
 
   .content-section {
