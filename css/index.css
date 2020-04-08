@@ -266,6 +266,9 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.home .content-section .big p {
+  font-size: 4rem;
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
